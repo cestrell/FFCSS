@@ -1,31 +1,26 @@
 /* Remove separators between tabs */
 .tabbrowser-tab::after,
 .tabbrowser-tab::before {
-    display: none !important;
+	display: none !important;
 }
 
 /* Disable the tab line on top of the active tab */
 .tab-line{
-    display: none !important;
+	display: none !important;
 }
 
 /* Remove separator next to hamburger menu */
 #PanelUI-button {
-    border-left: none !important;
+	border-left: none !important;
 }
 
 /* Change hamburger menu to dots*/
 #PanelUI-menu-button {
-    list-style-image: url("chrome://browser/skin/page-action.svg") !important;
+	list-style-image: url("chrome://browser/skin/page-action.svg") !important;
 }
-
-:root {
-    --focus-ring-box-shadow: 0 !important;
-}
-
 
 .tab-text.tab-label {
-    font-size: 12px !important;
+	font-size: 12px !important;
 }
 
 /* Change searchbox radius and disable border line*/
