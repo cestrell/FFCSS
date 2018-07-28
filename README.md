@@ -4,4 +4,5 @@
 The **userchrome.css** file can be used to change the appearance of the firefox browser
 
 # Example
-[Homepage](https://i.imgur.com/8ihvjJo.png)
+
+![Homepage](https://i.imgur.com/Xjt7t8c.png)
