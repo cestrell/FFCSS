@@ -1,0 +1,91 @@
+/* Remove separators between tabs */
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+    display: none !important;
+}
+
+/* Disable the tab line on top of the active tab */
+.tab-line{
+    display: none !important;
+}
+
+/* Remove separator next to hamburger menu */
+#PanelUI-button {
+    border-left: none !important;
+}
+
+/* Change hamburger menu to dots*/
+#PanelUI-menu-button {
+    list-style-image: url("chrome://browser/skin/page-action.svg") !important;
+}
+
+:root {
+    --focus-ring-box-shadow: 0 !important;
+}
+
+
+.tab-text.tab-label {
+    font-size: 12px !important;
+}
+
+/* Change searchbox radius and disable border line*/
+#urlbar,.searchbar-textbox {
+	border: 0px !important; 
+	border-radius: 5px !important;
+}
+
+/* Disable white flash when opening new tabs*/
+.browserContainer {
+	background-color: black !important;
+}
+
+/* Disable animation when loading tabs*/
+.tab-loading-burst,
+.tab-icon-image,
+#pageActionButton {
+	display: none !important;
+}
+
+
+/* Fix back button */
+#back-button>.toolbarbutton-icon {
+	transform: scale(.85, .85) !important;
+	animation: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+#back-button:not(:hover),
+#back-button:not(:hover) > .toolbarbutton-icon {
+	background: none !important;
+}
+
+#back-button:hover,
+#back-button:hover > .toolbarbutton-icon {
+	border-radius: 2px !important;
+}
+
+/* Change spacing between buttons */
+.titlebar-button{
+	padding-left: 10px !important; 
+	padding-right:10px !important; 
+}
+
+/* Remove space on left side of tabs when window is minimized */
+.titlebar-placeholder[type="pre-tabs"] {
+	display: none !important;
+}      
+
+/* Hide search bar stuff */
+#pageActionButton,
+#pocket-button-box,
+ar-button,
+.autocomplete-history-dropmarker,
+#identity-icon-labels {
+	display: none !important;
+}
+
+/* Remove padding above tabbar in compact mode */
+#main-window[sizemode="normal"] > #titlebar {
+	-moz-appearance: initial !important;
+}
