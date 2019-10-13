@@ -10,6 +10,7 @@ The **userchrome.css** file can be used to make tweaks that change the appearanc
   * Go to the profile in use and *Open Folder*
 * Create a new *chrome/* directory
 * Create your *userChrome.css* file in the directory
+* (*Optional*) Create a symlink from your working directory to your selected profile folder
 
 ### Example
 ![Homepage](https://i.imgur.com/Xjt7t8c.png)
