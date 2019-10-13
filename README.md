@@ -1,8 +1,15 @@
-# Firefox CSS
+# FFMinimal
+Minimal Firefox UI
 
-# Intro
-The **userchrome.css** file can be used to change the appearance of the firefox browser
+### Intro
+The **userchrome.css** file can be used to make tweaks that change the appearance of the firefox browser. These tweaks can override nearly every built-in style rule, making for highly customizable setups.
 
-# Example
+### Usage
+* Open your currently active profile folder
+  * Navigate to *about:profiles* (through URL bar)
+  * Go to the profile in use and *Open Folder*
+* Create a new *chrome/* directory
+* Create your *userChrome.css* file in the directory
 
+### Example
 ![Homepage](https://i.imgur.com/Xjt7t8c.png)
