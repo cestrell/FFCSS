@@ -1,0 +1,138 @@
+/*.tab-line, /* Disable the tab line on top of the active tab
+/*.titlebar-placeholder[type="pre-tabs"] { /* Remove space on left side of tabs when window is minimized
+    display: none !important;
+}*/
+
+/* Hide search bar stuff  */
+#pageActionButton, 
+.autocomplete-history-dropmarker, 
+#identity-icon-labels {
+    display: none !important;
+}
+
+/* Remove separator next to hamburger menu */
+#PanelUI-button {
+    border-left: none !important;
+}
+
+/* Change hamburger menu to dots*/
+#PanelUI-menu-button {
+    list-style-image: url("chrome://browser/skin/page-action.svg") !important;
+}
+
+/* Disable search box border line*/
+#urlbar,.searchbar-textbox {
+	border: none !important; 
+	background: none !important;
+	color: #FFFFFF !important;
+}
+
+/* Disable white flash when opening new tabs*/
+.browserContainer {
+	background-color: black !important;
+}
+
+/* Change spacing between buttons */
+.titlebar-button{
+	padding-left: 5px !important; 
+	padding-right: 5px !important;
+    margin-bottom: -2px !important;
+}
+
+
+/* Remove padding above tabbar in compact mode */
+#main-window[sizemode="normal"] > #titlebar {
+	-moz-appearance: initial !important;
+}
+#main-window[sizemode="maximized"] > #titlebar {
+	-moz-appearance: initial !important;
+	margin-top: 3px !important;
+}
+
+#nav-bar
+{
+	border: none !important;
+    /*border-color: transparent !important;*/
+}
+
+#TabsToolbar, #titlebar {
+    background-color: #333333 !important;
+    border: none !important;
+    margin-top: -4px !important;
+}
+
+/* Remove line above navigation bar */
+#navigator-toolbox {
+    --tabs-border-color: transparent !important;
+}
+
+/* Hide main tabs toolbar */
+#tabbrowser-tabs{
+    visibility: hidden !important;
+}
+
+/*minus button */
+#titlebar-min{
+    background-color: #282828 !important;
+}
+#titlebar-min:hover{
+    background-color: lightyellow !important;
+}
+
+/* maximize button */
+#titlebar-max{
+    background-color: #282828 !important;
+}
+#titlebar-max:hover{
+    background-color: palegreen!important; 
+}
+
+/* close button */
+#titlebar-close{
+    background-color: #282828 !important;
+}
+#titlebar-close:hover{
+    background-color: skyblue !important; 
+}
+
+/*-------------------------------------------------*/
+/* FIX BACK BUTTON */
+#back-button>.toolbarbutton-icon {
+	transform: scale(.85, .85) !important;
+	animation: none !important;
+	border: none !important; 
+	box-shadow: none !important;
+}
+
+#back-button:not(:hover),
+#back-button:not(:hover) > .toolbarbutton-icon {
+	background: none !important;
+}
+
+#back-button:hover,
+#back-button:hover > .toolbarbutton-icon {
+	border-radius: 2px !important;
+}
+/*-------------------------------------------------*/
+/* TREESTYLE TABS*/
+
+#tabbrowser-tabs {
+    visibility: collapse !important;
+}
+
+/* Sidebar min and max width removal */
+#sidebar {
+	max-width: 90px !important;
+	min-width: 0px !important;
+}
+
+/* Hide splitter, when using Tree Style Tab. */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] + #sidebar-splitter {
+	display: none !important;
+}
+
+/* Hide sidebar header, when using Tree Style Tab. */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+	visibility: collapse;
+}
+/*-------------------------------------------------*/
