@@ -19,3 +19,6 @@ Nested tabs for easy navigation
 
 ### Example
 ![Homepage](https://i.imgur.com/Xjt7t8c.png)
+
+## Author
+Carlos Estrella
